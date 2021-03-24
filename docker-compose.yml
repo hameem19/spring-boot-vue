@@ -7,7 +7,7 @@ services:
         image: spring-vue/frontend
         container_name: spring-vue-front
         ports:
-            - "8080:8080"    
+            - "9080:9080"
         networks: 
             - production-network
 

@@ -3,4 +3,4 @@ COPY ./frontend /opt
 WORKDIR /opt
 RUN npm install 
 ENTRYPOINT npm run dev
-EXPOSE 8080  
+EXPOSE 9080
